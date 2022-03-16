@@ -1,0 +1,19 @@
+{
+    "name": "leohenri/phsb",
+    "authors": [
+        {
+            "name": "eCommerce2",
+            "email": "leohenribar2@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeoHB\\": "vendor\\leohb\\php-classes\\src"
+        }
+    }
+}
